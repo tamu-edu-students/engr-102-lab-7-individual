@@ -49,30 +49,30 @@ Cannot split evenly
 ```
 
 ## Kaprekar's Constant
-6174 is known as [Kaprekar's Constant](https://en.wikipedia.org/wiki/6174_(number)) after the Indian mathematician D. R. Kaprekar. This number can be obtained using Kaprekar’s routine:
+`6174` is known as [Kaprekar's Constant](https://en.wikipedia.org/wiki/6174_(number)) after the Indian mathematician D. R. Kaprekar. This number can be obtained using Kaprekar’s routine:
 
 1. Take any four-digit number that has at least two different digits (add leading zeros to numbers with fewer than four digits)
 2. Sort the digits in descending and then in ascending order to get two four-digit numbers, adding leading zeros if necessary
 3. Subtract the smaller number from the bigger number to get a new four-digit number
 4. Go back to step 2 and repeat
 
-Kaprekar's routine will always reach its fixed point, 6174, in at most 8 iterations. Once 6174 is reached, the process will continue to yield `7641 – 1467 = 6174`.
+Kaprekar's routine will always reach its fixed point, `6174`, in at most 8 iterations. Once `6174` is reached, the process will continue to yield `7641 – 1467 = 6174`.
 
 For example, choose `3524`:<br/>
 5432 – 2345 = 3087<br/>
 8730 – 0378 = 8352<br/>
-8532 – 2358 = **6174**
+8532 – 2358 = `6174`
 
 For example, choose `137` (add a leading zero):<br/>
 7310 – 0137 = 7173<br/>
 7731 – 1377 = 6354<br/>
 6543 – 3456 = 3087<br/>
 8730 – 0378 = 8352<br/>
-8532 – 2358 = **6174**
+8532 – 2358 = `6174`
 
-The only four-digit numbers for which Kaprekar's routine does not reach 6174 are repdigits (numbers where all digits are the same, such as 1111) which give 0000 after a single iteration. All other four-digit numbers eventually reach 6174, as long as leading zeros are used to keep the number of digits at four.
+The only four-digit numbers for which Kaprekar's routine does not reach `6174` are repdigits (numbers where all digits are the same, such as `1111`) which give `0000` after a single iteration. All other four-digit numbers eventually reach `6174`, as long as leading zeros are used to keep the number of digits at four.
 
-Write a program named `kaprekars_constant.py` that takes in an integer from the user between 0 and 9999 and implements Kaprekar's routine. Have your program output the sequence of numbers to reach 6174 and the number of iterations to get there. Format your output as shown below.
+Write a program named `kaprekars_constant.py` that takes in an integer from the user between `0` and `9999` and implements Kaprekar's routine. Have your program output the sequence of numbers to reach `6174` and the number of iterations to get there. Format your output as shown below.
 
 Example output (using input `2029`):
 ```
@@ -88,7 +88,7 @@ Hints:
 
 
 ### Kaprekar's Constant Challenge (optional 2 bonus points)
-Modify your program from Activity 3 to compute the sum of the number of iterations required to reach 6174 (or 0000) using Kaprekar's routine for all four-digit numbers, from 0000 to 9999. Name your file `kaprekars_challenge.py`. If your program calculates the total number of iterations correctly, you will receive 2 bonus points on this assignment.
+Modify your program from Activity 3 to compute the sum of the number of iterations required to reach `6174` (or `0000`) using Kaprekar's routine for all four-digit numbers, from `0000` to `9999`. Name your file `kaprekars_challenge.py`. If your program calculates the total number of iterations correctly, you will receive 2 bonus points on this assignment.
 
 Example output:
 ```
