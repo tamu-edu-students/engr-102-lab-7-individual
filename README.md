@@ -8,7 +8,26 @@ There are three deliverables for this individual assignment. Please submit the f
 3. [Kaprekar's Constant](#kaprekars-constant)
 
 ## Name Game
-Write
+This program is meant to help give you practice with string manipulation. [The Name Game](https://en.wikipedia.org/wiki/The_Name_Game) is a rhyming game that creates variations on a person’s name. Using a person’s name, the first syllable is replaced with various sounds in the pattern below.
+
+```
+(X), (X), Bo-B(Y)
+Banana-Fana Fo-F(Y)
+Me Mi Mo-M(Y)
+(X)!
+```
+
+`X` is the full name and `Y` is the name without the first consonant sound. Write a program named `name_game.py` that reads in a name from the user, then prints the rhyme using the output shown below. For names that begin with a vowel sound, the first syllable is **not** dropped, but is converted to a lowercase letter.
+
+Example output (using input `Niki`):
+```
+What is your name? Niki
+Niki, Niki, Bo-Biki
+Banana-Fana Fo-Fiki
+Me Mi Mo-Miki
+Niki!
+```
+
 
 ## Split List
 Write
