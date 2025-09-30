@@ -30,7 +30,23 @@ Niki!
 
 
 ## Split List
-Write
+This program is meant to give you practice with lists and looping on them. Write a program named `split_list.py` that takes as input from the user one string of a sequence of integers, with each value separated by a space. Have your program convert the input string to a list of integers, and determine where to split the list so that the sum of the numbers in the left portion is equal to the sum of the numbers in the right portion. If such a split can be made, print the contents of the left and right portions of the list after the split along with their sum. You may **NOT** reorder the numbers; use them in the given order. If the list cannot be split with equal sums, print a message to the screen according to the example below. You may assume the user enters valid input, but it is an arbitrary number of whole numbers.
+
+**Note**: You should use **lists** (and loops) when solving this problem. You may **NOT** use the `sum()` function. You may **NOT** use `sympy` or `numpy`.
+
+Example output (using input `3 1 8 4 3 0 5`):
+```
+Enter numbers: 3 1 8 4 3 0 5
+Left: [3, 1, 8]
+Right: [4, 3, 0, 5]
+Both sum to 12
+```
+
+Example output (using input `8 3 4 6 3 2 9 0 1 8 3 5 8 3 2 6`):
+```
+Enter numbers: 8 3 4 6 3 2 9 0 1 8 3 5 8 3 2 6
+Cannot split evenly
+```
 
 ## Kaprekar's Constant
 Write
