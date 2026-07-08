@@ -74,11 +74,11 @@ The only four-digit numbers for which Kaprekar's routine does not reach `6174` a
 
 Write a program named `kaprekars_constant.py` that takes in an integer from the user between `0` and `9999` and implements Kaprekar's routine. Have your program output the sequence of numbers to reach `6174` and the number of iterations to get there. Format your output as shown below.
 
-Example output (using input `2029`):
+Example output (using input `2030`):
 ```
-Enter a four-digit integer: 2029
-2029 > 8991 > 8082 > 8532 > 6174
-2029 reaches 6174 via Kaprekar's routine in 4 iterations
+Enter a four-digit integer: 2030
+2030 > 3177 > 6354 > 3087 > 8352 > 6174
+2030 reaches 6174 via Kaprekar's routine in 5 iterations
 ```
 
 Hints: 
@@ -102,7 +102,7 @@ Kaprekar's routine takes ????? total iterations for all four-digit numbers
 2. **Now I have a list of strings. How do I get numbers?** Now that you have a list of strings, you need to convert each element into an int or float. You can't just apply `int()` or `float()` directly to a list; instead loop through the elements and convert each value to the data type you want. If you're still struggling, look out for hints in class on how to do this.
 
 3. **Activity 1 (The Name Game) what do I do if a name starts with 2 consonants?** Your code will need to identify the first vowel in the name, no matter where it is. One suggestion is to examine one by one the letters of the name until you find a vowel. Remember you can check if a character is in a string or list like this:
-```
+```python
 myletter = "a"
 if myletter in "abc":  # or use ["a", "b", "c"] for a list
     print("yes")
@@ -114,4 +114,4 @@ if myletter in "abc":  # or use ["a", "b", "c"] for a list
 Have a question you don't see here? Email your instructor!
 
 Based upon Dr. Keyser’s Original<br/>
-Revised Summer 2025 SNR
+Revised Summer 2026 SNR
