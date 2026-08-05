@@ -97,7 +97,7 @@ Kaprekar's routine takes ????? total iterations for all four-digit numbers
 
 
 ## Frequently Asked Questions
-1. **How do I convert a string of numbers into a list?** If you use the `list(mystr)` command, it puts each character (including spaces) into it's own element in a list. Try using the `mystr.split()` method instead. See the [string methods example video](https://mediasite.tamu.edu/Mediasite/Play/8a3a9b890cdb456e8e53a3b90d4c43f91d) for an explanation.
+1. **How do I convert a string of numbers into a list?** If you use the `list(mystr)` command, it puts each character (including spaces) into it's own element in a list. Try using the `mystr.split()` method instead. See the [string methods example video](https://tamu.video.yuja.com/V/Video?v=16646955&node=70953166&a=736564) for an explanation.
 
 2. **Now I have a list of strings. How do I get numbers?** Now that you have a list of strings, you need to convert each element into an int or float. You can't just apply `int()` or `float()` directly to a list; instead loop through the elements and convert each value to the data type you want. If you're still struggling, look out for hints in class on how to do this.
 
@@ -107,7 +107,7 @@ myletter = "a"
 if myletter in "abc":  # or use ["a", "b", "c"] for a list
     print("yes")
 ```
-4. **Activity 3 (Kaprekar's constant) how do I sort numbers?** The easy way is to use `mylist.sort()`. You need a list of numbers (or strings), and that one command will sort it for you. Then you can print / concatenate / whatever to put it back into a single int or string. See the [list methods example video](https://mediasite.tamu.edu/Mediasite/Play/5e303a579dab4a769cb7ed9e732f68491d) for an explanation. Here's another suggestion: store each digit in it's own variable. How do you get each digit? `num // 1000` will give you the first digit of a four-digit number. Then you can create an `if-elif-else` block to determine which digit is largest/smallest. You can use string concatenation to put the digits back together: `newnum = str(num1) + str(num2)`
+4. **Activity 3 (Kaprekar's constant) how do I sort numbers?** The easy way is to use `mylist.sort()`. You need a list of numbers (or strings), and that one command will sort it for you. Then you can print / concatenate / whatever to put it back into a single int or string. See the [list methods example video](https://tamu.video.yuja.com/V/Video?v=16646947&node=70953142&a=139579561) for an explanation. Here's another suggestion: store each digit in it's own variable. How do you get each digit? `num // 1000` will give you the first digit of a four-digit number. Then you can create an `if-elif-else` block to determine which digit is largest/smallest. You can use string concatenation to put the digits back together: `newnum = str(num1) + str(num2)`
 
 5. **Activity 3 (Kaprekar's constant) how do I not print the `>` at the end again?** Review the FAQ on [Lab Topic 6 (individual)](https://github.com/tamu-edu-students/engr-102-lab-6-individual) for an example.
 
