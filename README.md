@@ -81,6 +81,13 @@ Enter a four-digit integer: 2030
 2030 reaches 6174 via Kaprekar's routine in 5 iterations
 ```
 
+Example output (using input `1111`):
+```
+Enter a four-digit integer: 1111
+1111 > 0
+1111 reaches 0 via Kaprekar's routine in 1 iterations
+```
+
 Hints: 
 - Consider converting numbers to strings for sorting, and back to numbers for calculating
 - Pad the number with 0s when it has fewer than four digits (remember string concatenation?)
